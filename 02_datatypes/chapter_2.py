@@ -1,0 +1,10 @@
+# Immutatable Data Types Example.
+spice_mix = set()
+print(f"Initial spice mix ID: {id(spice_mix)}")
+print(f"Initial spice mix ID: {spice_mix}")
+spice_mix.add("Ginger")
+spice_mix.add("Cardamom")
+spice_mix.add("Lemon")
+spice_mix.add("Lemograss")
+print(f"Initial spice mix ID: {spice_mix}")
+print(f"After spice mix ID: {id(spice_mix)}")

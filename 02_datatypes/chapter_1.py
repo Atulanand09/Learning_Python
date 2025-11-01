@@ -1,3 +1,4 @@
+# Mutable Data Types Example. 
 sugar_amount = 10
 print(f"Initial sugar: {sugar_amount}") 
 
